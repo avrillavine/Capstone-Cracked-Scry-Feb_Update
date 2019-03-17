@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: ce5c0c9ad9449d64d8aa4e2879afb3c1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: base
+    100004: Body
+    100006: bottom-eyelid.L
+    100008: bottom-eyelid.L_end
+    100010: bottom-eyelid.R
+    100012: bottom-eyelid.R_end
+    100014: chest
+    100016: collar.L
+    100018: collar.R
+    100020: eye.L
+    100022: eye.L_end
+    100024: eye.R
+    100026: eye.R_end
+    100028: eyebrow.L
+    100030: eyebrow.L_end
+    100032: eyebrow.R
+    100034: eyebrow.R_end
+    100036: foot.L
+    100038: foot.R
+    100040: head
+    100042: ik-leg.r.L
+    100044: ik-leg.r.R
+    100046: index.001.L
+    100048: index.001.R
+    100050: index.002.L
+    100052: index.002.R
+    100054: index.003.L
+    100056: index.003.L_end
+    100058: index.003.R
+    100060: index.003.R_end
+    100062: jaw-controller
+    100064: jaw-controller_end
+    100066: knee.L
+    100068: knee.L_end
+    100070: knee.R
+    100072: knee.R_end
+    100074: lower-lip
+    100076: lower-lip_end
+    100078: lowerarn.L
+    100080: lowerarn.R
+    100082: lowerjaw
+    100084: lowerjaw_end
+    100086: lowerleg.L
+    100088: lowerleg.R
+    100090: middle.001.L
+    100092: middle.001.R
+    100094: middle.002.L
+    100096: middle.002.R
+    100098: middle.003.L
+    100100: middle.003.L_end
+    100102: middle.003.R
+    100104: middle.003.R_end
+    100106: mouth-controller
+    100108: mouth-controller_end
+    100110: neck
+    100112: palm.L
+    100114: palm.R
+    100116: pelvis
+    100118: pinky.001.L
+    100120: pinky.001.R
+    100122: pinky.002.L
+    100124: pinky.002.R
+    100126: pinky.003.L
+    100128: pinky.003.L_end
+    100130: pinky.003.R
+    100132: pinky.003.R_end
+    100134: ring.001.L
+    100136: ring.001.R
+    100138: ring.002.L
+    100140: ring.002.R
+    100142: ring.003.L
+    100144: ring.003.L_end
+    100146: ring.003.R
+    100148: ring.003.R_end
+    100150: //RootNode
+    100152: root
+    100154: stomach
+    100156: thigh.L
+    100158: thigh.R
+    100160: thumb.001.L
+    100162: thumb.001.R
+    100164: thumb.002.L
+    100166: thumb.002.L_end
+    100168: thumb.002.R
+    100170: thumb.002.R_end
+    100172: thumb.L
+    100174: thumb.R
+    100176: toe.L
+    100178: toe.L_end
+    100180: toe.R
+    100182: toe.R_end
+    100184: upper-eyelid.L
+    100186: upper-eyelid.L_end
+    100188: upper-eyelid.R
+    100190: upper-eyelid.R_end
+    100192: upper-lip
+    100194: upper-lip_end
+    100196: upperarm.L
+    100198: upperarm.R
+    100200: upperjaw
+    100202: upperjaw_end
+    400000: Armature
+    400002: base
+    400004: Body
+    400006: bottom-eyelid.L
+    400008: bottom-eyelid.L_end
+    400010: bottom-eyelid.R
+    400012: bottom-eyelid.R_end
+    400014: chest
+    400016: collar.L
+    400018: collar.R
+    400020: eye.L
+    400022: eye.L_end
+    400024: eye.R
+    400026: eye.R_end
+    400028: eyebrow.L
+    400030: eyebrow.L_end
+    400032: eyebrow.R
+    400034: eyebrow.R_end
+    400036: foot.L
+    400038: foot.R
+    400040: head
+    400042: ik-leg.r.L
+    400044: ik-leg.r.R
+    400046: index.001.L
+    400048: index.001.R
+    400050: index.002.L
+    400052: index.002.R
+    400054: index.003.L
+    400056: index.003.L_end
+    400058: index.003.R
+    400060: index.003.R_end
+    400062: jaw-controller
+    400064: jaw-controller_end
+    400066: knee.L
+    400068: knee.L_end
+    400070: knee.R
+    400072: knee.R_end
+    400074: lower-lip
+    400076: lower-lip_end
+    400078: lowerarn.L
+    400080: lowerarn.R
+    400082: lowerjaw
+    400084: lowerjaw_end
+    400086: lowerleg.L
+    400088: lowerleg.R
+    400090: middle.001.L
+    400092: middle.001.R
+    400094: middle.002.L
+    400096: middle.002.R
+    400098: middle.003.L
+    400100: middle.003.L_end
+    400102: middle.003.R
+    400104: middle.003.R_end
+    400106: mouth-controller
+    400108: mouth-controller_end
+    400110: neck
+    400112: palm.L
+    400114: palm.R
+    400116: pelvis
+    400118: pinky.001.L
+    400120: pinky.001.R
+    400122: pinky.002.L
+    400124: pinky.002.R
+    400126: pinky.003.L
+    400128: pinky.003.L_end
+    400130: pinky.003.R
+    400132: pinky.003.R_end
+    400134: ring.001.L
+    400136: ring.001.R
+    400138: ring.002.L
+    400140: ring.002.R
+    400142: ring.003.L
+    400144: ring.003.L_end
+    400146: ring.003.R
+    400148: ring.003.R_end
+    400150: //RootNode
+    400152: root
+    400154: stomach
+    400156: thigh.L
+    400158: thigh.R
+    400160: thumb.001.L
+    400162: thumb.001.R
+    400164: thumb.002.L
+    400166: thumb.002.L_end
+    400168: thumb.002.R
+    400170: thumb.002.R_end
+    400172: thumb.L
+    400174: thumb.R
+    400176: toe.L
+    400178: toe.L_end
+    400180: toe.R
+    400182: toe.R_end
+    400184: upper-eyelid.L
+    400186: upper-eyelid.L_end
+    400188: upper-eyelid.R
+    400190: upper-eyelid.R_end
+    400192: upper-lip
+    400194: upper-lip_end
+    400196: upperarm.L
+    400198: upperarm.R
+    400200: upperjaw
+    400202: upperjaw_end
+    2100000: Skin
+    4300000: Body
+    7400000: lHand_Grip_Raise_Arm
+    9500000: //RootNode
+    13700000: Body
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Armature/root/base/stomach/chest/collar.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/index.001.L/index.002.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/middle.001.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/pinky.001.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/pinky.001.L/pinky.002.L/pinky.003.L/pinky.003.L_end
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/pinky.001.L/pinky.002.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/pinky.001.L/pinky.002.L/pinky.003.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/middle.001.L/middle.002.L/middle.003.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/middle.001.L/middle.002.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/middle.001.L/middle.002.L/middle.003.L/middle.003.L_end
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/index.001.L/index.002.L/index.003.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/index.001.L/index.002.L/index.003.L/index.003.L_end
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/index.001.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/thumb.L/thumb.001.L/thumb.002.L/thumb.002.L_end
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/thumb.L/thumb.001.L/thumb.002.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/thumb.L/thumb.001.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/ring.001.L/ring.002.L/ring.003.L/ring.003.L_end
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/thumb.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/ring.001.L/ring.002.L/ring.003.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/ring.001.L/ring.002.L
+    - Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/ring.001.L
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: lHand_Grip_Raise_Arm
+      takeName: lHand_Grip_Raise_Arm.001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 0
+      - path: Armature/root
+        weight: 0
+      - path: Armature/root/base
+        weight: 0
+      - path: Armature/root/base/pelvis
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.L
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.L/lowerleg.L
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.L/lowerleg.L/foot.L
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.L/lowerleg.L/foot.L/toe.L
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.L/lowerleg.L/foot.L/toe.L/toe.L_end
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.R
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.R/lowerleg.R
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.R/lowerleg.R/foot.R
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.R/lowerleg.R/foot.R/toe.R
+        weight: 0
+      - path: Armature/root/base/pelvis/thigh.R/lowerleg.R/foot.R/toe.R/toe.R_end
+        weight: 0
+      - path: Armature/root/base/stomach
+        weight: 0
+      - path: Armature/root/base/stomach/chest
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/index.001.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/index.001.L/index.002.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/index.001.L/index.002.L/index.003.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/index.001.L/index.002.L/index.003.L/index.003.L_end
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/middle.001.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/middle.001.L/middle.002.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/middle.001.L/middle.002.L/middle.003.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/middle.001.L/middle.002.L/middle.003.L/middle.003.L_end
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/pinky.001.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/pinky.001.L/pinky.002.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/pinky.001.L/pinky.002.L/pinky.003.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/pinky.001.L/pinky.002.L/pinky.003.L/pinky.003.L_end
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/ring.001.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/ring.001.L/ring.002.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/ring.001.L/ring.002.L/ring.003.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/ring.001.L/ring.002.L/ring.003.L/ring.003.L_end
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/thumb.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/thumb.L/thumb.001.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/thumb.L/thumb.001.L/thumb.002.L
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.L/upperarm.L/lowerarn.L/palm.L/thumb.L/thumb.001.L/thumb.002.L/thumb.002.L_end
+        weight: 1
+      - path: Armature/root/base/stomach/chest/collar.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/index.001.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/index.001.R/index.002.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/index.001.R/index.002.R/index.003.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/index.001.R/index.002.R/index.003.R/index.003.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/middle.001.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/middle.001.R/middle.002.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/middle.001.R/middle.002.R/middle.003.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/middle.001.R/middle.002.R/middle.003.R/middle.003.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/pinky.001.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/pinky.001.R/pinky.002.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/pinky.001.R/pinky.002.R/pinky.003.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/pinky.001.R/pinky.002.R/pinky.003.R/pinky.003.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/ring.001.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/ring.001.R/ring.002.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/ring.001.R/ring.002.R/ring.003.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/ring.001.R/ring.002.R/ring.003.R/ring.003.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/thumb.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/thumb.R/thumb.001.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/thumb.R/thumb.001.R/thumb.002.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/collar.R/upperarm.R/lowerarn.R/palm.R/thumb.R/thumb.001.R/thumb.002.R/thumb.002.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/bottom-eyelid.L
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/bottom-eyelid.L/bottom-eyelid.L_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/bottom-eyelid.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/bottom-eyelid.R/bottom-eyelid.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/eye.L
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/eye.L/eye.L_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/eye.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/eye.R/eye.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/eyebrow.L
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/eyebrow.L/eyebrow.L_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/eyebrow.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/eyebrow.R/eyebrow.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/jaw-controller
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/jaw-controller/jaw-controller_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/mouth-controller
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/mouth-controller/mouth-controller_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/upper-eyelid.L
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/upper-eyelid.L/upper-eyelid.L_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/upper-eyelid.R
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/head/upper-eyelid.R/upper-eyelid.R_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/lower-lip
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/lower-lip/lower-lip_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/lowerjaw
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/lowerjaw/lowerjaw_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/upper-lip
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/upper-lip/upper-lip_end
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/upperjaw
+        weight: 0
+      - path: Armature/root/base/stomach/chest/neck/upperjaw/upperjaw_end
+        weight: 0
+      - path: Armature/root/ik-leg.r.L
+        weight: 0
+      - path: Armature/root/ik-leg.r.L/knee.L
+        weight: 0
+      - path: Armature/root/ik-leg.r.L/knee.L/knee.L_end
+        weight: 0
+      - path: Armature/root/ik-leg.r.R
+        weight: 0
+      - path: Armature/root/ik-leg.r.R/knee.R
+        weight: 0
+      - path: Armature/root/ik-leg.r.R/knee.R/knee.R_end
+        weight: 0
+      - path: Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
